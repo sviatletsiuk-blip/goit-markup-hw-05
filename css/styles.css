@@ -732,22 +732,27 @@ border-color: #4D5AE5;
         color: #8e8f99;
         display: block;
         margin-bottom: 4px;
-        position: relative;
 }
 
 .modal-field {
     margin-bottom: 8px;
 }
 
+.modal-input-container {
+    position: relative;
+}
+
 .input-icon {
-    width: 18px;
-    height: 24px;
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #4D5AE5;
+    width: 18px;
+    height: 24px;
+    top: 50%;
 }
+
 
 /* ----------MODAL---------- */
