@@ -801,12 +801,9 @@ border-color: #4D5AE5;
 }
 
 input[type="checkbox"]:checked+label .checkbox {
+    fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
-}
-
-.check-hidden:checked+.privasy-text .checkbox-icon {
-    fill: #F4F4FD;
 }
 
 .policy {
