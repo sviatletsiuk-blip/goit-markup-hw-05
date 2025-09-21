@@ -800,9 +800,12 @@ border-color: #4D5AE5;
     fill: transparent;
 }
 
-.checkbox:checked +.check-hidden>span{
+input[type="checkbox"]:checked+label .checkbox {
     background-color: #404bbf;
     border: none;
+}
+
+input[type="checkbox"]:checked+label .checkbox-icon {
     fill: #F4F4FD;
 }
 
