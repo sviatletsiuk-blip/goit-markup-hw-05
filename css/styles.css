@@ -785,7 +785,7 @@ border-color: #4D5AE5;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;;
+    color: #8e8f99;
 }
 
 .checkbox {
@@ -812,6 +812,7 @@ input[type="checkbox"]:checked+label .checkbox {
 
 .form-button {
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-weight: 500;
