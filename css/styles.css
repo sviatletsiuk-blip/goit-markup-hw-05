@@ -800,7 +800,7 @@ border-color: #4D5AE5;
     fill: transparent;
 }
 
-.check-hidden:checked +.checkbox>span{
+.modal-check:checked +.modal-check-label>span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
